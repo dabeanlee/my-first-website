@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: 'JSongMyung-Regular-KO';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/JSongMyung-Regular-KO.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GowunDodum-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+            body{
+                margin: 0px;
+                
+            }
+            h1{
+                font-family: JSongMyung-Regular-KO;
+                font-size: 55px;
+            }            
+            a{
+            
+            }
+            ol{
+                padding: 20px;
+                margin:20px;
+                font-family: GowunDodum-Regular;
+            }
+            p{
+            
+                font-family: GowunDodum-Regular;
+                text-align: center;
+            }
+            #grid{
+                border:1px solid black;
+                display:grid;
+                grid-template-columns: 200px 1fr;
+                margin-top: 50px;
+                
+            
+            }
+            #article{
+                border-left: 1px solid black;
+                margin: 0;
+                display: grid;
+                grid-template-columns: 300px 1fr;
+                text-align: center;
+                padding: 100px;
+            }
+
+           @media(max-width:800px){
+               #grid{
+                display: block;
+               }
+               #article{
+                display: block;
+               }
+
+               #img_box{
+                display: block;
+                margin: auto;
+               }
+               #navigation{
+                text-align: center;
+                border-bottom: 1px solid black;
+               }
