@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <title>LEE DABEAN</title>
-        
+        <script src="color.js"></script>
     </head>
     <body>
         <h1><center>이다빈</center></h1>
@@ -12,18 +12,9 @@
         <div id="navigation">
         
         <input id="day_night" type="button" value="night" onclick="
-        if(document.querySelector('#day_night').value === 'night'){
-            document.querySelector('body').style.backgroundColor = 'black';
-            document.querySelector('body').style.color = 'white'; 
-            document.getElementById('grid').style.borderColor = 'white' ;
-            document.getElementById('article').style.borderColor = 'white' ; 
-            document.querySelector('#day_night').value = 'day' ;}
+        
+        nightdayHandeler(this)
 
-        else{document.querySelector('body').style.backgroundColor = 'white';
-            document.querySelector('body').style.color = 'black';
-            document.getElementById('grid').style.borderColor = 'black' ;
-            document.getElementById('article').style.borderColor = 'black' ; 
-            document.querySelector('#day_night').value = 'night' ; } 
             ">
         
             <ol>
