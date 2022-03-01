@@ -20,9 +20,6 @@
                 font-family: JSongMyung-Regular-KO;
                 font-size: 55px;
             }            
-            a{
-            
-            }
             ol{
                 padding: 20px;
                 margin:20px;
@@ -50,19 +47,20 @@
                 padding: 100px;
             }
 
-           @media(max-width:800px){
-               #grid{
+            @media(max-width:800px){
+                #grid{
                 display: block;
-               }
-               #article{
+                }
+                #article{
                 display: block;
-               }
+                }
 
-               #img_box{
+                #img_box{
                 display: block;
                 margin: auto;
-               }
-               #navigation{
+                }
+                #navigation{
                 text-align: center;
                 border-bottom: 1px solid black;
-               }
+                }
+            }
